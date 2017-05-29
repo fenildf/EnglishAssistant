@@ -43,7 +43,7 @@ namespace EnglishAssistant
             Words = readFromFile(WordFilePath);
             List<EnglishWord> mistakedWords = DoPractice();
             SaveMistakes(mistakedWords);
-            Console.ReadLine();
+            Console.ReadLine();  
         }
 
         static void CheckDirectoryExist()
